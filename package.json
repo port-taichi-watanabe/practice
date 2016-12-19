@@ -1,0 +1,23 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "環境構築のテスト",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm run test",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "practice"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "node-sass": "^4.0.0",
+    "nodemon": "^1.11.0",
+    "sanitize.css": "^4.1.0"
+  }
+}
